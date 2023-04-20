@@ -23,7 +23,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-tcy&v%p)ot=*iu+xq316r@#s#w6i5o3k4k^4%#==vnwj!9$!4!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -107,7 +106,7 @@ DATABASES = {
         'PASSWORD': 'asdf',
     }
 }
-
+DEBUG = False
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
